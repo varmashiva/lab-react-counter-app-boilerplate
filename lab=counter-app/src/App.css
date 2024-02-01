@@ -1,0 +1,44 @@
+body{
+  font-family: sans-serif;
+}
+
+h1{
+  color: #02023f;
+}
+
+h2{
+  font-size: 30px;
+  color: maroon;
+}
+.Btn{
+  width: 30px;
+}
+
+.resetBtn{
+  width: 60px;
+}
+
+button{
+  border: 1px solid #02023f;
+  height: 30px;
+  margin: 8px;
+  background-color: white;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #02023f;;
+  color: white;
+  border: 1px solid #02023f ;
+}
+
+button:focus{
+  border: 1px solid blue;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vh;
+}
